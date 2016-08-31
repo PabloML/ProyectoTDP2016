@@ -779,7 +779,7 @@
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">424</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">392</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">388</XPD:ATTR>
 <XPD:ATTR name="Width" type="integer">108</XPD:ATTR>
 <XPD:ATTR name="Height" type="integer">82</XPD:ATTR>
 <XPD:REF name="Model">ZoF35ko8LEusQhWzXRkXPwAA</XPD:REF>
@@ -809,7 +809,7 @@
 <XPD:OBJ name="OwnedViews[24]" type="UMLGeneralizationView" guid="dIK5oOMBs0uneK7ZoNeETAAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">466,392;455,351</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">466,388;455,351</XPD:ATTR>
 <XPD:REF name="Model">0mD1XxmNJ0af9QLwpThUkAAA</XPD:REF>
 <XPD:REF name="Head">cH+RaNvsb0GVGXI7vjyseAAA</XPD:REF>
 <XPD:REF name="Tail">vIgS29mEgkCXDH+bq+SDpQAA</XPD:REF>
@@ -2244,6 +2244,12 @@
 <XPD:OBJ name="Operations[2]" type="UMLOperation" guid="V9JqvRNQZECfaDIEZr9YeAAA">
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">zNcgMH6pKUmSclfcLjjKnAAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="fJ2ViVcFh0OXVI77aJ++ogAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">V9JqvRNQZECfaDIEZr9YeAAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="Operations[3]" type="UMLOperation" guid="4szgutLk9kSWTyesF/ndFwAA">
 <XPD:ATTR name="Name" type="string">collide</XPD:ATTR>
@@ -2360,7 +2366,7 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">8yUaMpE4QkGzUJhO///zqgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="rTrOrpuZGEiUT7a0Lf/dYgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="3sSe2es4RU+CqDwYTSuHzQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
 <XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">BwcdmzawSk+b0EJnyDDtxAAA</XPD:REF>
@@ -3080,9 +3086,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">oTFsORvOdUC9safmHIyXbgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="73+fUdzkIEOpo9QK54hx7gAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="14ocBye4jkKTle3ATuOEsgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void*</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int*</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">FqGjFAcilEiFvJzw9Q0bLQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3198,9 +3204,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">hJmEPIDOqkCOhdmADwqwwwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="+3nE7t+qqUi1dyzCnqRGMQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="wWw2UpTsCk+MXT/difXlBwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">2EtNNOAByECXEFasCbyadwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3259,9 +3265,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">ZoF35ko8LEusQhWzXRkXPwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="mlCBzlziPUSrAKNviFkRSgAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="QkyQAxUoS0++mtpNBCrOZAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">VIQns+VFvEKysRkJfmJSqQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:ATTR name="#CallActions" type="integer">1</XPD:ATTR>
@@ -3352,9 +3358,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">qS2qEgq56UK6vVWin4wA4wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="ShvcmshbdECaQFRxc8sqQwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="/mKSWbk/AEmzXcsBsavUYgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">Tnh0dzw2PkiTt6xgm5bA0wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3400,9 +3406,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">1WtJ3uF4mkGoLKOcu1Sa8wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="esTgklvRREuLjFf/z/SJQwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="r2MLsk45tkWWPv83/3souAAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">N9WjChySYEaUsag+92SYXwAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3446,9 +3452,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">ot67TOBLbEOH8eZptx4fjgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="goBP0u07aUO5O87mhTyuagAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="dfeA5THCu0m4+pKcKs/AIgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">IZ3Cqg7TYEOS2p6nOzYb+wAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3492,9 +3498,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">xbEh5HgnO06vdTJh04Al/wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="wRqoQFQPJkC4VPyJAbhdZQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="hY6BC5t53UGVm9U/Vo9K6wAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">c26/SQ6jQE+rUj4+uF+6mQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3538,9 +3544,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">3Q1yOsoSqUm4+DgH2ZuBigAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="Xk/Eaqbr8ECjgnYwLXMIKQAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="R0smL2Y0RE6OTqhBHNCnOQAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">gSppEKyHGUyymhQZq4jsGQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3584,9 +3590,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">2my/doNqfECS1uZWt93MfgAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="hyYQGDM0wEuEcXgQ2IKNNwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="LmzKJ7S6hUGFQEQPBUxymgAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">QC6z8pSM2Uy8PfM5mfINCQAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3630,9 +3636,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">aX2zEprjJE6aYJWJqnRE3wAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="EtPS/1S0FEm+hyQfTcR1IwAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="uVUM7TE/G0a+c37gluAQkwAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">ESZnyRqO7Uqi4njcv7F+9gAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -3676,9 +3682,9 @@
 <XPD:ATTR name="Name" type="string">kill</XPD:ATTR>
 <XPD:REF name="Owner">SzpWDuo3nkCmfEwZVRXVHwAA</XPD:REF>
 <XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
-<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="K9Md2RR2qEqaBVl9kYY31wAA">
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="9+7LmBxCjEmSPMEHxT2G1wAA">
 <XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">void+</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int+</XPD:ATTR>
 <XPD:REF name="BehavioralFeature">TyV2psj3r06vt0NSfYfUwgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
@@ -4784,12 +4790,14 @@ Si es un Power Up incrementa el puntaje con el metodo incrementPoint() en el Pla
 <XPD:OBJ name="OwnedViews[7]" type="UMLNoteView" guid="eEzptU9Juk62odrVWk0itwAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Left" type="integer">564</XPD:ATTR>
-<XPD:ATTR name="Top" type="integer">200</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">551</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">38</XPD:ATTR>
+<XPD:ATTR name="Left" type="integer">552</XPD:ATTR>
+<XPD:ATTR name="Top" type="integer">152</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">663</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">68</XPD:ATTR>
 <XPD:ATTR name="Text" type="string">Como sabemos el objeto no sera ni de tipo Tank, ni de tipo Element sino de una de las clases derivadas
 que no sea abstracta. El método kill es la acción que realiza un elemento cuando es impactado por un proyectil.
+Devuelve un entero que en el caso de que impacte en el jugador, base o un enemigo son los puntos.
+En el caso de otro elemento el valor que entrega es 0 si el proyectil pasa a través de Tree, Water o PowerUp y 1 si impacta en un Wall
 </XPD:ATTR>
 </XPD:OBJ>
 </XPD:OBJ>
