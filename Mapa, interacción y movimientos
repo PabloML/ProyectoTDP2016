@@ -1,39 +1,123 @@
-Cuando se selecciona la opción jugar se crea el mapa.
-
-Creación del mapa.
-
-	Se genera el escenario comenzando por una matriz de NxM.
-	Se crea la base.
-	Se crea la unidad del jugador.
-	Se establecen los muros, jungla y agua aleatoriamente (y por única vez).
-	Comienza el timer que colocará y hará desaparecer cada cierto tiempo los power ups.
+﻿Cuando se selecciona la opción jugar se crea el mapa.
 
 
-Movimiento.
-
-	El jugador y los enemigos se mueven al mismo tiempo.
-	Los power ups son estáticos al igual que el resto de los elementos.
-	Tanto el jugador como los tanques pueden moverse hacia cualquier dirección, menos en diagonal.
-	Todos los elementos (tanques, power ups, muros, etc) ocupan 1 posición de la matriz.
 
 
-Interacción entre jugadores, enemigos y mapa.
 
-	Cualquier tanque (jugador o enemigo) puede moverse libremente por el mapa (respetando el movimiento mencionado anteriormente) siempre y cuando:
+
+
+
+
+
+
+
+//Creación del mapa.
+
+	Matriz <--- Crear matriz
+	Base <--- Crear base
+	Jugador <--- Crear jugador
+	Enemigos <--- Crear enemigos
+	Elementos <--- Crear elementos
+	Timer <--- Setear nuevo timer //es el encargado de realizar el respawn de power ups y enemigos
+
+
+
+
+
+
+
+
+
+
+
+//Movimiento
+
+	
+
+
+	//El jugador y los enemigos se mueven al mismo tiempo.
+	//Los power ups son estáticos al igual que el resto de los elementos.
+	//Tanto el jugador como los tanques pueden moverse hacia cualquier dirección, menos en diagonal.
+	//Todos los elementos (tanques, power ups, muros, etc) ocupan 1 posición de la matriz.
+
+	while(!gameOver())
+		setear movimiento de los enemigos
+		setear lugar de aparición de los power ups
+
+
+
+
+
+
+
+
+
+
+
+//Interacción entre jugadores, enemigos y mapa.
+
+	
+
+
+	/*Cualquier tanque (jugador o enemigo) puede moverse libremente por el mapa (respetando el movimiento mencionado anteriormente) siempre y cuando:
 		No haya un muro en la próxima posición.
 		No hay otro tanque en la próxima posición.
-		No haya agua en la próxima posición.
-	Los tanques enemigos no pueden agarrar los power ups.
-	Si el jugador se posiciona en la misma celda donde hay un power up, entonces lo agarra y se produce el efecto que este indique.
-	Los tanques enemigos tendrán un cierto rango de visión (se determinará cuando se programe la IA).
-		Si se encuentra el jugador en ese rango, la IA intentará disparar en esa dirección.
-	Los disparos son elementos y se mueven como los tanques (más rápidamente) en la dirección en la que fueron efectuados.
-	Al impactar un disparo contra un elemento puede suceder lo siguiente:
-		Si el elemento es el jugador, entonces dependiendo de sus hit points, se le reducen o muere, perdiendo en ese caso una vida.
-		Si el elemento es un tanque enemigo, entonces dependiendo de su resistencia (o hit points) muere o se reduce su resistencia.
-		Si el elemento es un muro común, entonces sufrirá daño hasta ser destruído.
-		Si el elemento es un muro fortificado, el disparo termina en dicho muro, sin sufrir este daño alguno.
-		Si el elemento es agua, el disparo seguirá su curso libremente.
-		Si el elemento es jungla, el disparo seguirá su curso libremente sin poder ser visualizado mientras haya jungla en las celdas por las que viaja.
-		Si el elemento es la base, entonces el jugador pierde la partida.
+		No haya agua en la próxima posición.*/
+
+	
+	//sea [i][j] la siguiente posición posible a moverse dentro de la matriz	
+	Mientras ((Matriz[i][j])!=(muro))||((Matriz[i][j])!=(muroFortificado))||((Matriz[i][j])!=(agua))||((Matriz[i][j])!=(enemigo))
+		Jugador.Posición().setPosSiguiente() //aquí dependerá de la dirección que elija el jugador
+		//sea [i][j] la posición ACTUAL del jugador
+		Si ((Matriz[i][j])==(powerUp)) 	
+			Jugador.setPowerUp() //Si el jugador se posiciona en la misma celda donde hay un power up, entonces lo agarra y se produce el efecto que este indique.
+
+	
+	//Los tanques enemigos no pueden agarrar los power ups.
+	//Si el jugador se posiciona en la misma celda donde hay un power up, entonces lo agarra y se produce el efecto que este indique.
+	
+	
+	
+
+	//Los tanques enemigos tendrán un cierto rango de visión (se determinará cuando se programe la IA).
+
+	Si (JugadorEnRango==true) //Si se encuentra el jugador en ese rango, la IA intentará disparar en esa dirección.
+		enemigo.atack(jugador)
+		
+	
+
+
+	//Los disparos son elementos y se mueven como los tanques (más rápidamente) en la dirección en la que fueron efectuados.
+	
+	Si (elemento.(impactado)==true)
+		Si (elemento==jugador)
+			hitpoints--
+			Si (hitpoints==0)
+				pierdevida=true
+	
+	Si (elemento==enemigo) entonces
+		hitpoints--
+		si(hitpoints==0)
+			destruído=true
+	
+	Si (elemento==muro) entonces
+		hitpoints--
+		si(hitpoints==0)
+			destruído=true
+	
+	Si (elemento==muro fortificado) entones
+		//nada ocurre
+	
+	Si (elemento==agua)
+		//el disparo sigue su trayectoria
+	
+	Si (elemento==jungla)
+		disparo sigue su trayectoria
+		disparo.setVisibilidad(false)
+	
+	Si (elemento==base)
+		gameOver(true)					
+
+		
+
 
