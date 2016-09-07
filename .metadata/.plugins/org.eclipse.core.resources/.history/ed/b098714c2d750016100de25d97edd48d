@@ -1,0 +1,7 @@
+package Protagonist;
+
+import javax.swing.JLabel;
+
+public abstract class Protagonist extends JLabel
+  {
+  }

@@ -1,0 +1,11 @@
+package Protagonist;
+
+import javax.swing.JLabel;
+
+public abstract class Protagonist extends JLabel
+  {protected boolean life;
+   protected int point;
+   public abstract void move(int d);
+   public abstract int kill();
+   public abstract void attack();
+  }
