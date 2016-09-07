@@ -1545,8 +1545,8 @@
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
 <XPD:ATTR name="Left" type="integer">680</XPD:ATTR>
 <XPD:ATTR name="Top" type="integer">32</XPD:ATTR>
-<XPD:ATTR name="Width" type="integer">128</XPD:ATTR>
-<XPD:ATTR name="Height" type="integer">108</XPD:ATTR>
+<XPD:ATTR name="Width" type="integer">140</XPD:ATTR>
+<XPD:ATTR name="Height" type="integer">134</XPD:ATTR>
 <XPD:REF name="Model">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="Snsnv8bchE2lgCQTqAhIugAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="oY1yfNRFHE+FChxKqv4EoQAA">
@@ -1574,7 +1574,7 @@
 <XPD:OBJ name="OwnedViews[45]" type="UMLAssociationView" guid="kQsDJqRaYEmvbDzMamAk/QAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">801,260;761,139</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">802,260;771,165</XPD:ATTR>
 <XPD:REF name="Model">zZWyDeZrskS2VpY5QwElBwAA</XPD:REF>
 <XPD:REF name="Head">G0yXexR8VUSJm8crTqLpWgAA</XPD:REF>
 <XPD:REF name="Tail">ACFmuh+gw0ChR/sml6jP2wAA</XPD:REF>
@@ -1658,7 +1658,7 @@
 <XPD:OBJ name="OwnedViews[46]" type="UMLAssociationView" guid="T/F1eVtS8UeI8v8Vq7EoZgAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">680,92;524,110</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">680,103;524,113</XPD:ATTR>
 <XPD:REF name="Model">tlQ995Fzw0iuKeyVOk7rnAAA</XPD:REF>
 <XPD:REF name="Head">YMcyWEOE20yXfeELxTh6DQAA</XPD:REF>
 <XPD:REF name="Tail">G0yXexR8VUSJm8crTqLpWgAA</XPD:REF>
@@ -1742,7 +1742,7 @@
 <XPD:OBJ name="OwnedViews[47]" type="UMLAssociationView" guid="4cLiehmgoEeNAuWwGz0hywAA">
 <XPD:ATTR name="LineColor" type="string">clMaroon</XPD:ATTR>
 <XPD:ATTR name="FillColor" type="string">$00B9FFFF</XPD:ATTR>
-<XPD:ATTR name="Points" type="Points">524,110;680,92</XPD:ATTR>
+<XPD:ATTR name="Points" type="Points">524,113;680,103</XPD:ATTR>
 <XPD:REF name="Model">iDluuXi/oEqPqk2VYYRy7gAA</XPD:REF>
 <XPD:REF name="Head">G0yXexR8VUSJm8crTqLpWgAA</XPD:REF>
 <XPD:REF name="Tail">YMcyWEOE20yXfeELxTh6DQAA</XPD:REF>
@@ -4180,7 +4180,7 @@
 <XPD:REF name="Views[1]">Z+DHs1nKE0qPK+kbL7HgHwAA</XPD:REF>
 <XPD:REF name="Views[2]">RE6lUx8iFUenUmM8wlFbfgAA</XPD:REF>
 <XPD:REF name="Views[3]">/rsD+7Y1sE6mr34e7NRUNQAA</XPD:REF>
-<XPD:ATTR name="#Operations" type="integer">5</XPD:ATTR>
+<XPD:ATTR name="#Operations" type="integer">6</XPD:ATTR>
 <XPD:OBJ name="Operations[0]" type="UMLOperation" guid="R2Qz4XSjgk24jyZvuYe0CwAA">
 <XPD:ATTR name="Name" type="string">Play</XPD:ATTR>
 <XPD:REF name="Owner">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
@@ -4205,11 +4205,21 @@
 <XPD:REF name="Type_">8yUaMpE4QkGzUJhO///zqgAA</XPD:REF>
 </XPD:OBJ>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[3]" type="UMLOperation" guid="t7E3k40QBEuCvHA7foqMuwAA">
+<XPD:OBJ name="Operations[3]" type="UMLOperation" guid="4NVW55cFRkWn701YMEqZwwAA">
+<XPD:ATTR name="Name" type="string">getCantEnemydead</XPD:ATTR>
+<XPD:REF name="Owner">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
+<XPD:ATTR name="#Parameters" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Parameters[0]" type="UMLParameter" guid="jp5GNuoOgU+oKc7JDvMhwQAA">
+<XPD:ATTR name="DirectionKind" type="UMLParameterDirectionKind">pdkReturn</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="BehavioralFeature">4NVW55cFRkWn701YMEqZwwAA</XPD:REF>
+</XPD:OBJ>
+</XPD:OBJ>
+<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="t7E3k40QBEuCvHA7foqMuwAA">
 <XPD:ATTR name="Name" type="string">setPlayer</XPD:ATTR>
 <XPD:REF name="Owner">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
 </XPD:OBJ>
-<XPD:OBJ name="Operations[4]" type="UMLOperation" guid="KpLy8N/dBUC6heIuOax6QgAA">
+<XPD:OBJ name="Operations[5]" type="UMLOperation" guid="KpLy8N/dBUC6heIuOax6QgAA">
 <XPD:ATTR name="Name" type="string">createEnemy</XPD:ATTR>
 <XPD:REF name="Owner">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
 </XPD:OBJ>
@@ -4225,6 +4235,12 @@
 <XPD:REF name="Associations[5]">/NFAsWb9Okuy9gyz194/1wAA</XPD:REF>
 <XPD:REF name="Associations[6]">3WzXnCZteEeO1qHFKBLzugAA</XPD:REF>
 <XPD:REF name="Associations[7]">5d9ohftAHECqXckHuskjFwAA</XPD:REF>
+<XPD:ATTR name="#Attributes" type="integer">1</XPD:ATTR>
+<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="L9KYAxOk/E2HKcZed7XYsQAA">
+<XPD:ATTR name="Name" type="string">cantEnemyDead</XPD:ATTR>
+<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
+<XPD:REF name="Owner">B1TsaS6ezUCel2nf4aSZ6QAA</XPD:REF>
+</XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[53]" type="UMLAssociation" guid="kcPafcUYXEmEVOcEHcIlUAAA">
 <XPD:REF name="Namespace">7ELaWwc4vku75jO9Oxs4NgAA</XPD:REF>
@@ -4624,7 +4640,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="6XKpIQ/Z0UGgZWH8seJ+RAAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="BU20cUHoNUK1VfUjY5rqPgAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Tank*</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Protagonist*</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="ihdZxkAA0UGPyVmzTvB4cAAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -5051,7 +5067,7 @@ Si es un Power Up incrementa el puntaje con el metodo incrementPoint() en el Pla
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="hESzKIyOI0eEwNupd2R4DQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="4zNharY8nk+KflkbdmCCnQAA">
 <XPD:ATTR name="FontStyle" type="integer">4</XPD:ATTR>
-<XPD:ATTR name="Text" type="string"> : Tank*</XPD:ATTR>
+<XPD:ATTR name="Text" type="string"> : Protagonist*</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="EokB6Nz34kqxbp6DnpdTpQAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>

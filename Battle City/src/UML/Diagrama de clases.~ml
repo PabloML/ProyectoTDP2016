@@ -127,7 +127,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="NNvu3NRU1k64iqLo6o7QwQAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="J8uOyDpbzk+SeBZ/i3JurAAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">Tank*</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Protagonist*</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="LPhqQppLvUagOfDdd9fJ0wAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -1269,7 +1269,7 @@
 <XPD:OBJ name="NameCompartment" type="UMLNameCompartmentView" guid="7w1cYL9ecUmlUSET3zQ40gAA">
 <XPD:OBJ name="NameLabel" type="LabelView" guid="ZnrVqJMaUky1XXM/+vhC2QAA">
 <XPD:ATTR name="FontStyle" type="integer">1</XPD:ATTR>
-<XPD:ATTR name="Text" type="string">TankPowerUp</XPD:ATTR>
+<XPD:ATTR name="Text" type="string">Tank</XPD:ATTR>
 </XPD:OBJ>
 <XPD:OBJ name="StereotypeLabel" type="LabelView" guid="Pu2kKgjVs0S/sOMqt1KG9QAA">
 <XPD:ATTR name="Visible" type="boolean">False</XPD:ATTR>
@@ -2492,7 +2492,7 @@
 </XPD:OBJ>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[2]" type="UMLClass" guid="c7zbxxxZsEqq7eCUXTdeJwAA">
-<XPD:ATTR name="Name" type="string">Tank*</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Protagonist*</XPD:ATTR>
 <XPD:REF name="Namespace">7ELaWwc4vku75jO9Oxs4NgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">O7NhLbLU9EuOztvSpXkUrAAA</XPD:REF>
@@ -2625,19 +2625,6 @@
 <XPD:REF name="Associations[2]">2myc0SWx8EqtQgi7wZR+rAAA</XPD:REF>
 <XPD:REF name="Associations[3]">c68PZfVavkKwizWVM+HehwAA</XPD:REF>
 <XPD:REF name="Associations[4]">3Qoolk8kLk2seR/OLT5FUAAA</XPD:REF>
-<XPD:ATTR name="#Attributes" type="integer">2</XPD:ATTR>
-<XPD:OBJ name="Attributes[0]" type="UMLAttribute" guid="yUzjz88dXUS39jHXp0cqCgAA">
-<XPD:ATTR name="Name" type="string">posXMap</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkProtected</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
-<XPD:REF name="Owner">pN4quECrfU+iufgoggD9MAAA</XPD:REF>
-</XPD:OBJ>
-<XPD:OBJ name="Attributes[1]" type="UMLAttribute" guid="4etAidC1MkGuaiZUSsT1DAAA">
-<XPD:ATTR name="Name" type="string">posYMap</XPD:ATTR>
-<XPD:ATTR name="Visibility" type="UMLVisibilityKind">vkProtected</XPD:ATTR>
-<XPD:ATTR name="TypeExpression" type="string">int</XPD:ATTR>
-<XPD:REF name="Owner">pN4quECrfU+iufgoggD9MAAA</XPD:REF>
-</XPD:OBJ>
 <XPD:ATTR name="#Instances" type="integer">2</XPD:ATTR>
 <XPD:REF name="Instances[0]">+FiZTL92kEaK59JfU4XuJQAA</XPD:REF>
 <XPD:REF name="Instances[1]">LCrpFS6RgkOZt/HvAfWh+gAA</XPD:REF>
@@ -3982,7 +3969,7 @@
 <XPD:REF name="Views[3]">jrouHNvL8ESkFZg2ZfnDwQAA</XPD:REF>
 </XPD:OBJ>
 <XPD:OBJ name="OwnedElements[46]" type="UMLClass" guid="aX2zEprjJE6aYJWJqnRE3wAA">
-<XPD:ATTR name="Name" type="string">TankPowerUp</XPD:ATTR>
+<XPD:ATTR name="Name" type="string">Tank</XPD:ATTR>
 <XPD:REF name="Namespace">7ELaWwc4vku75jO9Oxs4NgAA</XPD:REF>
 <XPD:ATTR name="#Views" type="integer">4</XPD:ATTR>
 <XPD:REF name="Views[0]">APXcQJF8N0mZh8Tufz7lOQAA</XPD:REF>
