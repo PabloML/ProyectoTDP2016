@@ -105,8 +105,8 @@ public class Map
    
    private void insertPlayer()
      {
-	   map[map.length-1][map[0].length-4][1]=player;
-	   panel.insertPlayer(map.length-1,map[0].length-4);
+	   map[map.length][map[0].length-3][1]=player;
+	   panel.insertPlayer;
      }
    
    private void insertElement()
