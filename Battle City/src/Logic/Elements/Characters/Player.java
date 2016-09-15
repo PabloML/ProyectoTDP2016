@@ -1,4 +1,5 @@
 package Logic.Elements.Characters;
+import Graphics.Elements.Characters.PlayerImage;
 import Logic.Background.Map;
 import Logic.Elements.Element;
 
@@ -13,6 +14,7 @@ public class Player extends Character
 	   cantLife=3;
 	   level=1;
 	   vulnerability=true;
+	   image= new PlayerImage(this);
      }
    
    public int getCantLife()
@@ -62,7 +64,7 @@ public class Player extends Character
 		            }
 		  }
 		map.setElement(this, posX, posY, 1);
-		image.move(d);
+		((PlayerImage)image).move(d);
 	  }
 
 	public void attack() 

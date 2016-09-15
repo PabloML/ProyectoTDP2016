@@ -1,0 +1,9 @@
+package Graphics.Elements.Characters;
+
+public abstract class CharacterImage {
+
+	public CharacterImage() {
+		// TODO Auto-generated constructor stub
+	}
+
+}

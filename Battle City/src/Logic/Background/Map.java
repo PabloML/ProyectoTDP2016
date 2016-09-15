@@ -65,7 +65,7 @@ public class Map
 		   int y=enemy.getPos()[1];
 		   map[x][y][1]=null;
 		   enemies=null;
-		   enemy.getImage().destroy(x,y,1);
+		   enemy.getImage().destroy();
 	     }
      }
    
@@ -105,7 +105,8 @@ public class Map
    
    private void insertPlayer()
      {
-	   map[map.length][map[0].length-3]=player; 
+	   map[map.length][map[0].length-3][1]=player;
+	   panel.insertPlayer;
      }
    
    private void insertElement()
@@ -129,7 +130,7 @@ public class Map
 				    	     int wall=rnd.nextInt(2);
 				    	     if (wall==0)
 				    	    	{elem=new BrickWall(this);
-				    	    	 panel.insertBrickWall();
+				    	    	 panel.insertBrickWall(x,y);
 				    	    	}
 				    	      
 				    	     break;

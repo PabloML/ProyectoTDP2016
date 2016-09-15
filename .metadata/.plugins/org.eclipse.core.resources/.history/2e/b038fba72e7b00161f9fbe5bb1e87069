@@ -1,0 +1,25 @@
+package Graphics.Elements.Characters;
+
+import javax.swing.ImageIcon;
+
+import Graphics.Elements.BaseImage;
+
+public class PlayerImage extends CharacterImage
+  {
+	public PlayerImage()
+      {
+  	   image=new ImageIcon(BaseImage.class.getResource("/Images/Characters/Player/Player.png"));
+      }
+
+	public void destroy() 
+	  {
+	  }
+
+	public void move(int d) 
+	  {
+	  }
+
+	public void attack() 
+	  {
+  	  }
+  }

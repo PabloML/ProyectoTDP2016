@@ -2,18 +2,18 @@ package Graphics.Background;
 
 import javax.swing.JPanel;
 import javax.swing.JLabel;
+import javax.swing.ImageIcon;
 
-public class MapPanel extends JPanel {
-	public JLabel player;
+import Logic.Background.Map;
+
+public class MapPanel extends JPanel 
+  { protected Map map;
 	/**
 	 * Create the panel.
 	 */
-	public MapPanel()
+	public MapPanel(Map m)
 	  {
+		map=m;
 		setLayout(null);
-		player = new JLabel("New label");
-		player.setBounds(202, 5, 64, 64);
-		add(player);
 	  }
-
-}
+  }

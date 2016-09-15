@@ -1,0 +1,17 @@
+package Graphics.Elements;
+
+import javax.swing.ImageIcon;
+
+public class BrickWallImage extends WallImage
+  {
+	
+	 public BrickWallImage()
+     {
+   	image=new ImageIcon(BaseImage.class.getResource("/Images/Walls/BrickWall.png"));
+     }
+
+	public void destroy(int x, int y) 
+	  {	
+	  }
+
+  }

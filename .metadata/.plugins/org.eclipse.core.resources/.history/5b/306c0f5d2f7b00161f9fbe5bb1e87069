@@ -1,0 +1,16 @@
+package Graphics.Background;
+
+import javax.swing.JPanel;
+import javax.swing.JLabel;
+import javax.swing.ImageIcon;
+
+public class MapPanel extends JPanel {
+	/**
+	 * Create the panel.
+	 */
+	public MapPanel()
+	  {
+		setLayout(null);
+	  }
+
+}

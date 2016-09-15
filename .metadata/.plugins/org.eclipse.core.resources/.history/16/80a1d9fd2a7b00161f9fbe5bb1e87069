@@ -1,0 +1,5 @@
+package Graphics.Elements.Characters;
+
+public class PlayerImage 
+  {
+  }

@@ -1,5 +1,14 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-<fullyQualifiedTypeName name="javax.swing.JLabel"/>
 <fullyQualifiedTypeName name="Protagonist.Player"/>
+<fullyQualifiedTypeName name="javax.swing.JLabel"/>
+<fullyQualifiedTypeName name="javax.swing.ImageIcon"/>
+<fullyQualifiedTypeName name="Graphics.Elements.BaseImage"/>
+<fullyQualifiedTypeName name="Graphics.Elements.BrickWallImage"/>
+<fullyQualifiedTypeName name="Logic.Elements.Element"/>
+<fullyQualifiedTypeName name="Logic.Background.Play"/>
+<fullyQualifiedTypeName name="Logic.Background.Map"/>
+<fullyQualifiedTypeName name="Logic.Elements.Characters.Player"/>
+<fullyQualifiedTypeName name="Graphics.Elements.Characters.PlayerImage"/>
+<fullyQualifiedTypeName name="Graphics.Elements.ElementImage"/>
 </qualifiedTypeNameHistroy>

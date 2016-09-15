@@ -1,4 +1,5 @@
 package Logic.Elements;
+import Graphics.Elements.BaseImage;
 import Logic.Background.Map;
 import Logic.Elements.BrickWall;
 import Logic.Elements.Characters.Enemy;
@@ -13,7 +14,7 @@ public class Base extends Element
 	   this.createWalls();
 	   life=true;
 	   map=m;
-	   image=new BaseImage();
+	   image=new BaseImage(this);
      }
    
    public boolean isLife()

@@ -1,0 +1,15 @@
+package Graphics.Elements;
+
+import javax.swing.ImageIcon;
+import javax.swing.JLabel;
+
+public abstract class ElementImage extends JLabel
+  {protected ImageIcon image;
+
+   public ImageIcon getImage()
+     {
+	  return image;
+     }
+ 
+   public abstract void destroy();
+  }

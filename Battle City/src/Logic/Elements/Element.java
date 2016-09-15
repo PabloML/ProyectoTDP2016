@@ -1,4 +1,5 @@
 package Logic.Elements;
+import Graphics.Elements.ElementImage;
 import Logic.Background.Map;
 import Logic.Elements.Characters.Enemy;
 import Logic.Elements.Characters.Player;

@@ -1,0 +1,11 @@
+package Graphics.Elements;
+
+public class BaseImage extends ElementImage
+{
+
+	public void destroy(int x, int y) {
+		
+		
+	}
+  
+}

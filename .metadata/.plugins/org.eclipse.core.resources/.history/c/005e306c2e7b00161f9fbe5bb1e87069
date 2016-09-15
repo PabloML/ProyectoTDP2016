@@ -1,0 +1,16 @@
+package Graphics.Elements;
+
+import javax.swing.ImageIcon;
+
+import Graphics.Background.MapPanel;
+
+public class BaseImage extends ElementImage
+  {
+    public BaseImage()
+      {
+    	image=new ImageIcon(BaseImage.class.getResource("/Images/Base.png"));
+      }
+	public void destroy() 
+	  {
+	  }  
+  }
